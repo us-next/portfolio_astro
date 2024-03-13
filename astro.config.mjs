@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
-import react from '@astrojs/react'
+import react from '@astrojs/react';
+import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
@@ -8,10 +9,13 @@ export default defineConfig({
       preprocessorOptions: {
         //scssファイルの読み込み
         scss: {
-          additionalData: `@use "src/css/reset.scss" as *;`
+          additionalData: `
+          @use "src/css/reset.scss" as *;
+          @import "src/css/tailwind.scss";
+          `
         }
       }
     }
   },
-  integrations: [react()]
+  integrations: [react(), tailwind()]
 });
