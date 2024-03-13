@@ -1,5 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
+// import Intro from "../components/top/Intro.astro";
+import { Intro } from "../components/top/Intro.jsx";
+import About from "../components/top/About.astro";
 ---
 
 <Layout title="Portfolio">
@@ -7,20 +10,8 @@ import Layout from "../layouts/Layout.astro";
     <div class="mv">
       <p>Lunch steamen,<br />leicht gemacht.</p>
     </div>
-    <section class="intro">
-      <h2>intro</h2>
-      <p class="intro__txt">
-        Steasy ist ein mobiler Mini-Steamer mit eingebautem Akku. Damit kannst
-        du deinen vorgekochten Lunch überall hochwertig aufwärmen.
-      </p>
-			<div>
-				<p class="pic01"><img src="/public/img/intro_01.jpg" alt="intro01" /></p>
-				<p class="pic02"><img src="/public/img/intro_02.jpg" alt="intro02" /></p>
-				<p class="pic03"><img src="/public/img/intro_03.jpg" alt="intro03" /></p>
-				<p class="pic04"><img src="/public/img/intro_04.jpg" alt="intro04" /></p>
-				<p class="pic05"><img src="/public/img/intro_05.jpg" alt="intro05" /></p>
-			</div>
-    </section>
+		<Intro />
+    <About />
   </main>
 </Layout>
 
@@ -39,50 +30,5 @@ import Layout from "../layouts/Layout.astro";
     border-bottom: 2px solid #000;
   }
 
-  .intro {
-    padding-top: 55px;
-    h2 {
-      display: none;
-    }
-    &__txt {
-      width: 90%;
-      margin: 0 auto 85px;
-      text-align: center;
-      font-size: 24px;
-      line-height: 1.3;
-    }
-		div {
-			display: grid;
-			grid-template-columns: 1fr 1fr;
-			grid-template-rows: repeat(27, 16px);
-			column-gap: 16px;
-		}
-		.pic01 {
-			grid-column-start: 1;
-			grid-column-end: 2;
-			grid-row-start: 3;
-			grid-row-end: 17;
-		}
-		.pic03 {
-			grid-column-start: 1;
-			grid-column-end: 2;
-			grid-row-start: 19;
-			grid-row-end: 27;
-		}
-		.pic02 {
-			grid-column-start: 2;
-			grid-column-end: 3;
-			grid-row-start: 1;
-		}
-		.pic05 {
-			grid-column-start: 2;
-			grid-column-end: 3;
-			grid-row-start: 9;
-		}
-		.pic04 {
-			grid-column-start: 2;
-			grid-column-end: 3;
-			grid-row-start: 21;
-		}
-  }
+
 </style>
