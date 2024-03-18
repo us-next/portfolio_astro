@@ -18,6 +18,9 @@ module.exports = {
       gap: {
         '16px' : '16px 16px'
       },
+      fontFamily: {
+        'inter' : '"Inter Variable", sans-serif'
+      }
     },
   },
   variants: {
