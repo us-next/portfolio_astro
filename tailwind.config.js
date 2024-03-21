@@ -19,7 +19,11 @@ module.exports = {
         '16px' : '16px 16px'
       },
       fontFamily: {
-        'inter' : '"Inter Variable", sans-serif'
+        'inter' : "'Inter Variable', sans-serif"
+      },
+      backgroundColor : {
+        'pink' : '#CC4A4F',
+        'gray' : '#ccc'
       }
     },
   },
