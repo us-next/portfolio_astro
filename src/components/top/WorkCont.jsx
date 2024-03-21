@@ -1,4 +1,4 @@
-import { Img } from "./Img";
+import { RoundedImg } from "./RoundedImg";
 import { Btn } from "../btn";
 
 export function WorkCont({src, alt, title, type, desc, padding, picPos, shadowX, shadowY}) {
@@ -12,7 +12,7 @@ export function WorkCont({src, alt, title, type, desc, padding, picPos, shadowX,
     <div className="mb-14">
       <div className={`relative mb-7 ${padding}`}>
         <div className={`absolute ${shadowX} ${shadowY} w-[87%] h-[351px] bg-[#315B6D] rounded-xl`}></div>
-        <p className={`relative z-10 w-[87%] h-[351px] ${picPos}`}><Img src={src} alt={alt}/></p>
+        <p className={`relative z-10 w-[87%] h-[351px] ${picPos}`}><RoundedImg src={src} alt={alt}/></p>
       </div>
         <p className="mb-4 text-2xl font-semibold">{title}</p>
         <p className="mb-4 text-[#12354A] text-lg font-inter font-medium">{type}</p>
