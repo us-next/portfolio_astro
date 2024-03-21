@@ -3,6 +3,8 @@ import Layout from "../layouts/Layout.astro";
 import { Intro } from "../components/top/Intro";
 import { About } from "../components/top/About";
 import { Works } from "../components/top/Works";
+import { Skill } from "../components/top/Skill";
+import { Contact } from "../components/top/Contact";
 ---
 
 <Layout title="Portfolio">
@@ -13,12 +15,14 @@ import { Works } from "../components/top/Works";
 		<Intro />
     <About />
     <Works />
+    <Skill />
+    <Contact />
   </main>
 </Layout>
 
 <style lang="scss">
   main {
-    padding: 6.4%;
+    // padding: 6.4%;
     /* color: white; */
     background: #F0EFEC;
   }
