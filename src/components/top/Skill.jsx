@@ -2,7 +2,7 @@ import {SkillCont} from "./SkillCont"
 
 export function Skill({}) {
   return (
-    <section className="flex flex-wrap justify-between gap-y-11 px-[6%] py-20 bg-[#12354A] text-white">
+    <section id="skill" className="flex flex-wrap justify-between gap-y-11 px-[6%] py-20 bg-[#12354A] text-white">
       <h2 className="hidden">skill</h2>
       <SkillCont 
         src="/public/img/skill_html.svg"

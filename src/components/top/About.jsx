@@ -2,7 +2,7 @@ import { RoundedImg } from './RoundedImg';
 
 export function About({ }) {
   return (
-    <section className="px-[6.4%] py-14 font-inter">
+    <section id="about" className="px-[6.4%] py-14 font-inter">
       <h2 className="hidden">about</h2>
       <div className="relative mb-40 pb-14">
         <div className="absolute top-[30px] w-[82%] h-[386px] bg-[#487B8B] rounded-2xl"></div>
