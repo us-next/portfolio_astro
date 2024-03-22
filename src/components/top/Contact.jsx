@@ -2,7 +2,7 @@ import { RoundedImg } from "./RoundedImg"
 
 export function Contact({ }) {
   return (
-    <section className="px-[6.4%] py-14 bg-white">
+    <section id="contact" className="px-[6.4%] py-14 bg-white">
       <p>
         <RoundedImg
           src="/public/img/contact_01.jpg"
