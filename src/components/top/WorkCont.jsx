@@ -9,14 +9,14 @@ export function WorkCont({src, alt, title, type, desc, padding, picPos, shadowX,
   //shadowY : シャドウの上下位置
   
   return (
-    <div className="mb-14">
+    <div className="md:w-[27.5%] mb-14 md:mb-0">
       <div className={`relative mb-7 ${padding}`}>
-        <div className={`absolute ${shadowX} ${shadowY} w-[87%] h-[351px] bg-[#315B6D] rounded-xl`}></div>
-        <p className={`relative z-10 w-[87%] h-[351px] ${picPos}`}><RoundedImg src={src} alt={alt}/></p>
+        <div className={`absolute ${shadowX} ${shadowY} w-[87%] h-[351px] md:h-60 bg-[#315B6D] rounded-xl`}></div>
+        <p className={`relative z-10 w-[87%] h-[351px] md:h-60 ${picPos}`}><RoundedImg src={src} alt={alt}/></p>
       </div>
         <p className="mb-4 text-2xl font-semibold">{title}</p>
         <p className="mb-4 text-[#12354A] text-lg font-inter font-medium">{type}</p>
-        <p className="mb-7">{desc}</p>
+        <p className="mb-7 md:mb-[78px]">{desc}</p>
         <Btn size="w-24" text="More" />
     </div>
   )

@@ -13,7 +13,8 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateRows: {
-        '11': 'repeat(11, 28px)'
+        '11': 'repeat(11, 1fr)',
+        '11-md':  'repeat(11, 6fr)',
       },
       gap: {
         '16px' : '16px 16px'
