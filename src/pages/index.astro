@@ -1,5 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { Header } from "../components/Header"
+import { Mv } from "../components/top/Mv";
 import { Intro } from "../components/top/Intro";
 import { About } from "../components/top/About";
 import { Works } from "../components/top/Works";
@@ -9,34 +11,21 @@ import { Footer } from "../components/Footer"
 ---
 
 <Layout title="Portfolio">
+  <Header client:load />
   <main>
-    <div class="mv">
-      <p>Lunch steamen,<br />leicht gemacht.</p>
-    </div>
+    <Mv />
 		<Intro />
     <About />
     <Works />
     <Skill />
     <Contact />
   </main>
-  <Footer />
+  <Footer client:load />
 </Layout>
 
 <style lang="scss">
   main {
-    // padding: 6.4%;
-    /* color: white; */
     background: #F0EFEC;
   }
-
-  .mv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-size: 32px;
-    border-bottom: 2px solid #000;
-  }
-
 
 </style>
