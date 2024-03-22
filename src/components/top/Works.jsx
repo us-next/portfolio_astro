@@ -2,7 +2,7 @@ import { WorkCont } from "./WorkCont";
 
 export function Works({ }) {
   return (
-    <section id="works" className="px-[12.8%]">
+    <section id="works" className="px-[12.8%] pt-28">
       <h2 className="mb-9 font-inter text-2xl">Works</h2>
       <WorkCont
         src="/public/img/intro_01.jpg"

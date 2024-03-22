@@ -2,7 +2,7 @@ import { RoundedImg } from './RoundedImg';
 
 export function Intro({ }) {
   return (
-    <section className="px-[6.4%] py-14 font-inter">
+    <section className="px-[6.4%] pt-14 font-inter">
       <h2 className="hidden">intro</h2>
       <p className="w-11/12 mx-auto mb-14 text-center text-2xl font-medium">
         Steasy ist ein mobiler Mini-Steamer mit eingebautem Akku. Damit kannst
