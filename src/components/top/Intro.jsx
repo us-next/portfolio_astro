@@ -2,13 +2,13 @@ import { RoundedImg } from './RoundedImg';
 
 export function Intro({ }) {
   return (
-    <section className="px-[6.4%] lg:px-[18%] pt-14 font-inter">
+    <section className="px-[6.4%] pt-14 lg:py-20 font-inter">
       <h2 hidden>intro</h2>
       <p className="w-11/12 md:w-6/12 mx-auto mb-14 text-center text-2xl lg:text-4xl font-medium">
         Steasy ist ein mobiler Mini-Steamer mit eingebautem Akku. Damit kannst
         du deinen vorgekochten Lunch überall hochwertig aufwärmen.
       </p>
-      <div className="grid grid-rows-11 md:grid-rows-11-md lg:grid-rows-11-lg grid-cols-2 lg:grid-cols-12-lg gap-4 lg:gap-6">
+      <div className="grid grid-rows-11 md:grid-rows-11-md lg:grid-rows-11-lg grid-cols-2 lg:grid-cols-12-lg gap-4 lg:gap-6 lg:max-w-[1224px] lg:mx-auto">
         <p className="col-start-1 col-end-2 lg:col-end-5 row-start-2 lg:row-start-3 row-end-8 lg:row-end-11">
           <RoundedImg src="/public/img/intro_01.jpg" alt="intro01" />
         </p>

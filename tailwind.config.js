@@ -15,6 +15,10 @@ module.exports = {
       gridTemplateRows: {
         '11': 'repeat(11, 1fr)',
         '11-md':  'repeat(11, 6fr)',
+        '11-lg': 'repeat(11, 52px)'
+      },
+      gridTemplateColumns: {
+        '12-lg': 'repeat(12, 1fr)'
       },
       gap: {
         '16px' : '16px 16px'
@@ -25,6 +29,10 @@ module.exports = {
       backgroundColor : {
         'pink' : '#CC4A4F',
         'gray' : '#ccc'
+      },
+      textColor: {
+        'pink' : '#CC4A4F',
+        'gray' : '#ccc'
       }
     },
   },
@@ -32,4 +40,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
 }
