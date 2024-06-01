@@ -7,7 +7,7 @@ export function Works({ }) {
         <h2 className="mb-9 lg:mb-20 font-inter text-2xl">Works</h2>
         <div className="md:flex md:justify-between">
           <WorkCont
-            src="/public/img/intro_01.jpg"
+            src="/public/img/pc_01.png"
             title="生徒評価アプリ"
             type="App"
             desc="Next.jsの練習を兼ねた仮想生徒評価アプリ"
@@ -15,7 +15,7 @@ export function Works({ }) {
             picPos="ml-auto"
             shadowY="top-0" />
           <WorkCont
-            src="/public/img/intro_01.jpg"
+            src="/public/img/pc_01.png"
             title="仮想Webサイト"
             type="Website"
             desc="Vue.jsで作成した仮想Webサイト"
@@ -23,7 +23,7 @@ export function Works({ }) {
             shadowX="right-0"
             shadowY="top-8" />
           <WorkCont
-            src="/public/img/intro_01.jpg"
+            src="/public/img/pc_01.png"
             title="ポートフォリオ"
             type="Website"
             desc="AstroとReactを使用し作成した本サイト"

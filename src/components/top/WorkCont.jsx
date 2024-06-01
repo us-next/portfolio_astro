@@ -12,7 +12,7 @@ export function WorkCont({src, alt, title, type, desc, padding, picPos, shadowX,
     <div className="md:w-[27.5%] mb-14 md:mb-0">
       <div className={`relative mb-7 lg:mb-16 ${padding}`}>
         <div className={`absolute ${shadowX} ${shadowY} w-[87%] aspect-[7/10] lg:aspect-[9/13] bg-[#315B6D] rounded-xl`}></div>
-        <p className={`relative z-10 w-[87%] aspect-[7/10] lg:aspect-[9/13] ${picPos}`}><RoundedImg src={src} alt={alt}/></p>
+        <p className={`relative flex items-center z-10 w-[87%] p-10 bg-white rounded-2xl aspect-[7/10] lg:aspect-[9/13] ${picPos}`}><RoundedImg src={src} alt={alt}/></p>
       </div>
         <p className="mb-4 text-2xl lg:text-3xl font-semibold">{title}</p>
         <p className="mb-4 text-[#12354A] text-lg lg:text-2xl font-inter font-medium">{type}</p>
