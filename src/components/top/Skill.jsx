@@ -33,7 +33,7 @@ export function Skill({ }) {
           src="/public/img/skill_vue.svg"
           alt="Vue3"
           skillName="Vue3"
-          skillDesc="簡単なアプリ制作が可能"
+          skillDesc="コンポーネント思考で制作可能"
         />
         <SkillCont
           src="/public/img/skill_astro.svg"
