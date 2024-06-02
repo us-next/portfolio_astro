@@ -11,14 +11,17 @@ export function Works({ }) {
             title="生徒評価アプリ"
             type="App"
             desc="Next.jsの練習を兼ねた仮想生徒評価アプリ"
+            href="#"
             padding="pt-8"
             picPos="ml-auto"
             shadowY="top-0" />
           <WorkCont
-            src="/public/img/pc_01.png"
+            src="/public/img/works_02.jpg"
             title="仮想Webサイト"
             type="Website"
             desc="Vue.jsで作成した仮想Webサイト"
+            href="http://vuesample.starfree.jp/"
+            target="_blank"
             padding="pb-8"
             shadowX="right-0"
             shadowY="top-8" />
@@ -27,6 +30,7 @@ export function Works({ }) {
             title="ポートフォリオ"
             type="Website"
             desc="AstroとReactを使用し作成した本サイト"
+            href="#"
             padding="pt-8"
             shadowX="right-0"
             shadowY="top-0" />
