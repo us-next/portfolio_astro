@@ -7,8 +7,9 @@ export function Works({ }) {
         <h2 className="mb-9 lg:mb-20 font-inter text-2xl">Works</h2>
         <div className="md:flex md:justify-between">
           <WorkCont
-            src="/public/img/pc_01.png"
+            src="/public/img/works_01.jpg"
             title="生徒評価アプリ"
+            object="object-contain"
             type="App"
             desc="Next.jsの練習を兼ねた仮想生徒評価アプリ"
             href="#"
@@ -18,6 +19,7 @@ export function Works({ }) {
           <WorkCont
             src="/public/img/works_02.jpg"
             title="仮想Webサイト"
+            object="object-cover"
             type="Website"
             desc="Vue.jsで作成した仮想Webサイト"
             href="http://vuesample.starfree.jp/"
