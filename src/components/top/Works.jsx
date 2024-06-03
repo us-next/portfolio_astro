@@ -12,7 +12,8 @@ export function Works({ }) {
             object="object-contain"
             type="App"
             desc="Next.jsの練習を兼ねた仮想生徒評価アプリ"
-            href="#"
+            href="https://next-assessment-demo.vercel.app/"
+            target="_blank"
             padding="pt-8"
             picPos="ml-auto"
             shadowY="top-0" />
