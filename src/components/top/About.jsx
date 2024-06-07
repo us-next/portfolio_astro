@@ -7,7 +7,7 @@ export function About({ }) {
       <div className="relative md:w-[48%] mb-40 md:mb-0 pb-14 md:pb-0">
         <div className="absolute top-[30px] md:top-[168px] lg:top-[60px] lg:left-[102px] w-[82%] h-[386px] md:h-[336px] lg:w-[384px] lg:h-[560px] bg-[#487B8B] rounded-2xl"></div>
         <p className="relative z-10 w-[82%] md:w-[64%] h-[372px] md:h-[560px] lg:w-[384px] lg:h-[560px] mx-auto md:mx-0 p-8 bg-white rounded-2xl">
-          <RoundedImg src="/public/img/pc_01.png" alt="about" height="h-full" object="object-contain"/>
+          <RoundedImg src="/img/pc_01.png" alt="about" height="h-full" object="object-contain"/>
         </p>
         {/* <p className="absolute bottom-0 md:bottom-[88px] lg:bottom-[15px] right-0 z-20 w-[55%] md:w-[49%] lg:w-[282px]">
           <RoundedImg src="/public/img/pc_01.png" />

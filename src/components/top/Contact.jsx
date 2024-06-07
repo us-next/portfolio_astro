@@ -7,7 +7,7 @@ export function Contact({ }) {
       <div className="md:flex md:items-center mx-auto lg:max-w-[1224px]">
         <p className="md:shrink-0 md:w-[70%] md:ml-[3%] lg:ml-0 p-12 bg-white rounded-2xl aspect-square md:aspect-[3/2] lg:">
           <RoundedImg
-            src="/public/img/pc_01.png"
+            src="img/pc_01.png"
             alt="contact"
             object="object-contian"
           />
