@@ -1,7 +1,7 @@
 import { RoundedImg } from "./RoundedImg";
 import { Btn } from "../btn";
 
-export function WorkCont({src, alt, object, title, type, desc, href, target, padding, picPos, shadowX, shadowY}) {
+export function WorkCont({onClick, src, alt, object, title, type, desc, href, target, padding, picPos, shadowX, shadowY}) {
   //呼び出し先で指定
   //padding： 画像とシャドウの箱に使用
   //picPos： 画像右寄せ時に使用
@@ -17,7 +17,7 @@ export function WorkCont({src, alt, object, title, type, desc, href, target, pad
         <p className="mb-4 text-2xl lg:text-3xl font-semibold">{title}</p>
         <p className="mb-4 text-[#12354A] text-lg lg:text-2xl font-inter font-medium">{type}</p>
         <p className="mb-7 md:mb-[28px]">{desc}</p>
-        <Btn size="w-24" href={href} target={target} text="More" />
+        <Btn onClick={onClick} size="w-24" href={href} target={target} text="More" />
     </div>
   )
 }
