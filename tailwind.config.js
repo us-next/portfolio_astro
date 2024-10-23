@@ -28,7 +28,8 @@ module.exports = {
       },
       backgroundColor : {
         'pink' : '#CC4A4F',
-        'gray' : '#ccc'
+        'gray' : '#ccc',
+        'greenBlack' : '#121918',
       },
       textColor: {
         'pink' : '#CC4A4F',
